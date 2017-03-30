@@ -1,0 +1,67 @@
+.swatch-control select {
+    display: none !important;
+}
+
+.swatch-control.radio-select ul {
+    padding:0 !important;
+    margin:0 !important;
+    list-style: none !important;
+}
+
+.swatch-control.radio-select li {
+    list-style: none !important;
+}
+
+.swatch-control.radio-select li label {
+    display:inline;
+    margin-left:10px;
+}
+
+.swatch-wrapper {
+    padding:2px;
+    background:#fff;
+    border:1px solid #ccc;
+    float:left;
+    margin:0 5px 5px 0;
+}
+
+.swatch-wrapper:hover {
+    border-color:#000
+}
+
+.swatch-wrapper.disabled:hover {
+    border-color:#ccc;
+}
+
+.swatch-wrapper a {
+    display:block;
+}
+
+.swatch-wrapper img {
+    width: inherit;
+    height: inherit;
+}
+
+div.swatch-wrapper.selected  {
+    border:2px solid green;
+    padding:1px;
+}
+
+
+div.swatch-wrapper.disabled, div.swatch-wrapper.disabled a, .radio-select .disabled {
+    cursor: not-allowed;
+    zoom:1;
+    -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+    filter: alpha(opacity=50);
+    -moz-opacity:0.5;
+    -khtml-opacity: 0.5;
+    opacity: 0.5;
+}
+
+.radio-select .disabled input, .radio-select .disabled label {
+    cursor: not-allowed;
+}
+
+div.swatch-label {
+    margin-bottom: 8px;
+}

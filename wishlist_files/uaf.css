@@ -1,0 +1,10 @@
+			@font-face {
+				font-family: 'mosk-thin-100';
+				font-style: normal;
+				src: url('170210055551Mosk-Thin-100.eot');
+				src: local('mosk-thin-100'), url('170210055551Mosk-Thin-100.eot') format('embedded-opentype'), url('170210055551Mosk-Thin-100.woff') format('woff');
+			}
+            
+            .mosk-thin-100{font-family: 'mosk-thin-100' !important;}
+            
+		
