@@ -127,17 +127,17 @@ header > .page-title{
 }
 
 .shop_table.cart td.product-name{
-    font-size:20px;
+    font-size:19px;
     color: #a89064;    
-    font-weight: 100;
+    font-weight: 500;
     width:33%;  
     letter-spacing: 4px;  
 }
 
 .shop_table.cart td.product-name p{
-    font-size:11px;
-    line-height: 21px;
-    letter-spacing: 1.5px;    
+    font-size:13px;
+    line-height: 24px;
+    letter-spacing: 1px; 
 }
 
 .shop_table.cart td.product-name img{
